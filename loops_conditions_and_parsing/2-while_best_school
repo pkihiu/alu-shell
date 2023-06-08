@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Best School
 N=1
-while [ $N <= 10]
+while [ $N -lt 10]
 do
     echo "Best School"
     ((N++))
