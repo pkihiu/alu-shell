@@ -3,12 +3,10 @@
 n=0
 while [ $n -lt 10 ]
 do
-      if [ $n	-eq 8 ]
-      then 
-	echo "Best School"
-	echo "Hi"
-    else
-	echo "Best school"
-      fi
-	((n++))
-done 
+echo "Best School"
+if [ $i -eq 8 ]
+then
+echo "Hi"
+fi
+((n++))
+done
