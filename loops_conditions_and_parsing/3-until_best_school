@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-#script for school using until ten times 
-i=0
-until [ $i -ge 10 ]
-do 
-echo "Best Schools"
-((i++))
+#Prints "Best School" ten times using an until loop
+n=0
+until [ $n -ge 10 ]
+do
+echo "Best School"
+((n++))
 done
