@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # displays Best School 10 times, but for the 9th iteration, displays Best School and then Hi on a new line.
-count=0
+n=0
 while [ $n -lt 10 ];
 do
     if [ $n -eq 8 ];
@@ -9,5 +9,5 @@ do
     else
 	echo "Best School"
     fi
-    ((n++))
+    (( n++ ))
 done
