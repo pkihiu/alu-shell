@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Best School
-N=1
-while [ $N -lt 10]
+# Script prints "Best School" ten times using while loop
+n=0
+while [ $n -lt 10]
 do
-    echo "Best School"
-    ((N++))
+  echo "Best School"
+ ((n++))
 done
