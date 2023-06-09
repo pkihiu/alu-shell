@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#script for school using until ten times 
+i=0
+until [ $i -gt 10 ]
+do 
+echo "10: $Best Schools"
+((i++))
+done
