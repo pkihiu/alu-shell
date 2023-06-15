@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# print a bash scrpit that displays the word bellow
+
+while "true"
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
