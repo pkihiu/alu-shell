@@ -1,0 +1,11 @@
+#!/urs/bin/env bash
+# terminate the script
+remove() {
+     echo "I am invincible!!!"
+}
+trap remove SIGTERM
+wthile true;
+do
+       echo"To infinity and beyond"
+       sleep 2
+done 
