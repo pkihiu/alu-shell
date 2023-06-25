@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Bash script that terminates the process of number 8 and 7
+# Create the file /var/run/myscrpit.pid having the PID
+echo $$ > /var/run/myscript.pid
+term() {
+    echo "I hate the kill command"
+    rm /var/run/myscript.pid
+    exit
+}
+int() {
+    echo "Y U no love me?!"
+}
+quit() {
+    rm /var/run/myscript.pid
+    exit
+}
+trap int SIGINT
+trap quit SIGQUIT
+trap term SIGTERM
+while true;
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
