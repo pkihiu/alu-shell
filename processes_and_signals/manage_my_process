@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Bash script that manages the progam and also add them in the tmp
+while true;
+do
+   echo "I am alive!" > /tmp/my_process
+   sleep 2
+done
